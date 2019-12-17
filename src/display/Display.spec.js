@@ -17,3 +17,9 @@ test("display closed if true", () => {
   rerender(<Display closed={false} />);
   getByText(/^open$/i);
 });
+
+// test('when locked classname should be "locked"', () => {
+//   const { getByText, rerender } = render(<Display closed locked />);
+//   getByText(debugger);
+
+// });
